@@ -1,0 +1,6 @@
+{
+  "name": "GAS TECH — Ordem de Serviço",
+  "description": "Aplicativo para ordem de serviço, inspeção, testes de estanqueidade e manutenção de sistemas de gás com suporte offline e instalação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

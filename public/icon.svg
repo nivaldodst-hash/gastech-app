@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141518" />
+      <stop offset="68%" stop-color="#24262b" />
+      <stop offset="100%" stop-color="#303238" />
+    </linearGradient>
+    <linearGradient id="redFlame" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="100%" stop-color="#c62828" />
+    </linearGradient>
+    <linearGradient id="yellowFlame" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9800" />
+      <stop offset="100%" stop-color="#ffc928" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)" />
+  <rect x="16" y="16" width="480" height="480" rx="84" fill="none" stroke="#ffffff15" stroke-width="6" />
+  
+  <!-- Flame symbol -->
+  <path d="M256 90 C220 160 170 200 170 280 C170 350 210 400 256 400 C302 400 342 350 342 280 C342 200 292 160 256 90 Z" fill="url(#redFlame)" />
+  <path d="M256 190 C235 230 205 260 205 305 C205 345 228 375 256 375 C284 375 307 345 307 305 C307 260 277 230 256 190 Z" fill="url(#yellowFlame)" />
+  <path d="M256 260 C245 285 230 305 230 330 C230 355 242 370 256 370 C270 370 282 355 282 330 C282 305 267 285 256 260 Z" fill="#ffffff" />
+  
+  <!-- Text Brand -->
+  <text x="256" y="445" font-family="Arial, sans-serif" font-weight="900" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="4">GAS <tspan fill="#ffc928">TECH</tspan></text>
+</svg>
